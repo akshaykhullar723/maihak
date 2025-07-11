@@ -948,15 +948,16 @@
   }
 }
 @media (max-width: 767px) {
-  .elementor-40
-    .elementor-element.elementor-element-540b093:not(.elementor-motion-effects-element-type-background),
-  .elementor-40
-    .elementor-element.elementor-element-540b093
-    > .elementor-motion-effects-container
-    > .elementor-motion-effects-layer {
-    background-image: url("../images/Uncle-cook.png");
+  .elementor-element.elementor-element-540b093 {
+    background-image: url("images/Uncle-cook.png"); /* Make sure this is correct path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 300px; /* Ensures it's visible even if empty */
+    display: block; /* Make sure it's visible */
   }
 }
+
 
   .elementor-40
     .elementor-element.elementor-element-9c62114
