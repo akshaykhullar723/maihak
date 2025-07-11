@@ -225,8 +225,30 @@
   background-size: cover;
   min-height: 300px; /* ✅ Ensures image is visible */
   width: 100%;        /* ✅ Just in case it's not stretching */
-  display: visible;     /* ✅ Ensures layout holds */
+  display: block;     /* ✅ Ensures layout holds */
 }
+@media (max-width: 767px) {
+  .elementor-40
+    .elementor-element.elementor-element-540b093
+    > .elementor-motion-effects-container
+    > .elementor-motion-effects-layer {
+    background-image: url("../images/H-who-img-cook.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 300px;
+    width: 100%;
+    display: block;
+  }
+
+  /* Also ensure the container itself has height on mobile */
+  .elementor-40
+    .elementor-element.elementor-element-540b093 {
+    min-height: 300px;
+    display: block;
+  }
+}
+
 
 .elementor-40 .elementor-element.elementor-element-aa5b832.elementor-element {
   --align-self: flex-end;
