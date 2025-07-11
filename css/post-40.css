@@ -947,7 +947,7 @@
     --content-width: 1280px;
   }
 }
-@media (max-width: 767px) {
+@media (min-width: 760px) and (max-width: 800px) {
   .elementor-40
     .elementor-element.elementor-element-540b093:not(
       .elementor-motion-effects-element-type-background
