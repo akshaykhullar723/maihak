@@ -957,7 +957,19 @@
     > .elementor-motion-effects-container
     > .elementor-motion-effects-layer {
     background-image: url("../images/Uncle-cook.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
   }
+
+  .elementor-40
+    .elementor-element.elementor-element-540b093:not(
+      .elementor-motion-effects-element-type-background
+    ) {
+    min-height: 300px;
+  }
+}
+
   .elementor-40
     .elementor-element.elementor-element-9c62114
     .elementor-heading-title {
