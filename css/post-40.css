@@ -223,7 +223,11 @@
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+  min-height: 300px; /* ✅ Ensures image is visible */
+  width: 100%;        /* ✅ Just in case it's not stretching */
+  display: visible;     /* ✅ Ensures layout holds */
 }
+
 .elementor-40 .elementor-element.elementor-element-aa5b832.elementor-element {
   --align-self: flex-end;
 }
