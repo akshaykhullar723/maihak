@@ -58,15 +58,15 @@
 /*Flating Whatsapp Button*/
 #whatsapp-float {
     position: fixed;
-    width: 70px;
+    width: 45px;
     bottom: 25px;
     right: 22px;
     z-index: 999;
     cursor: pointer;
     background: #FF6514;
     border-radius: 50%;
-    width: 60px;
-    height: 60px;
+    width: 45px;
+    height: 45px;
     display: flex;
     justify-content: center;
     align-items: center;
