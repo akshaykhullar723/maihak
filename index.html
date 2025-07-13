@@ -1297,17 +1297,22 @@ height: auto;
   position: absolute;
   top: 30px;
   right: 370px;
-  font-family: 'Poppins', sans-serif;   /* Adjust to your actual font */
+  font-family: 'Poppins', sans-serif;
   font-weight: 800;
-  color: #FFD54F;                        /* Bright yellow, adjust to match */
+  color: #FFD54F;
   background: transparent;
   padding: 8px 12px;
   text-decoration: none;
   font-size: 14px;
   letter-spacing: 0.5px;
   z-index: 9999;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   animation: blink 1.2s infinite;
 ">
+  <img src="images/guy.png" alt="Delivery Icon" style="width: 55px; margin-bottom: 2px;">
   LIVRAISON / EMPORTER
 </a>
 
@@ -1319,13 +1324,18 @@ height: auto;
 
 @media (max-width: 768px) {
   .delivery-button {
-    top: 60px !important;
+    top: 20px !important;
     right: 7px !important;
     font-size: 11px !important;
     padding: 6px 10px !important;
   }
+
+  .delivery-button img {
+    width: 45px !important;
+  }
 }
 </style>
+
 
 
 
@@ -1346,7 +1356,17 @@ height: auto;
  
 
   </div>
- 
+ <div style="
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 20px;
+  color: #FFCC48;
+  text-shadow: 2px 2px 0px #000;
+  text-align: center;
+  margin: -19px 0;
+">
+  CHEZ BABOU
+</div>
 
 		<div class="elementor-element elementor-element-0ab4ba1 hero-wrap e-flex e-con-boxed e-con e-child" data-id="0ab4ba1" data-element_type="container">
 					<div class="e-con-inner">
